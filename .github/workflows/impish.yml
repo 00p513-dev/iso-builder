@@ -1,4 +1,4 @@
-name: Ubuntu Cinnamon Remix 21.10 Impish (development branch) Daily
+name: Ubuntu Sway Remix 21.10 Impish (development branch) Daily
 
 on:
   push:
@@ -24,11 +24,11 @@ jobs:
     - name: Build ISO
       run: |
         cd /
-        git clone https://github.com/Ubuntu-Cinnamon-Remix/iso-builder
+        git clone https://github.com/dev-00p513/iso-builder
         cd iso-builder
         ./build.sh etc/terraform.conf
 
     - uses: actions/upload-artifact@v2
       with:
-        name: Ubuntu Cinnamon Remix 21.10 Impish (development branch) Daily
+        name: Ubuntu Sway Remix 21.10 Impish (development branch) Daily
         path: /iso-builder/builds/
