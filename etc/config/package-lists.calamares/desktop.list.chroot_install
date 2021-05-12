@@ -1,2 +1,9 @@
 @XORG_HWE
-ubuntucinnamon-desktop
+sway
+xdg-desktop-portal-wlr
+swayidle
+swaylock
+sway-backgrounds
+suckless-tools
+foot
+wofi
