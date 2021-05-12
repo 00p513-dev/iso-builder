@@ -24,7 +24,7 @@ jobs:
     - name: Build ISO
       run: |
         cd /
-        git clone https://github.com/dev-00p513/iso-builder
+        git clone https://github.com/00p513-dev/iso-builder
         cd iso-builder
         ./build.sh etc/terraform.conf
 
