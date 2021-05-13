@@ -7,5 +7,4 @@ sway-backgrounds
 suckless-tools
 foot
 wofi
-lightdm
-slick-greeter
+gdm
