@@ -7,4 +7,5 @@ sway-backgrounds
 suckless-tools
 foot
 wofi
-gdm3
+sddm
+sddm-theme-breeze
